@@ -82,4 +82,4 @@ In the `email` section:
 
 If you wish to modify the content of the email, simply edit the `subject` and/or `body` fields as desired. Remember to rebuild your Docker image to apply the new settings after making changes to `config.yaml`.
 
-!Note: It's important to keep the `{{.Rate}}` placeholder in the `body` field if you want to include the current exchange rate in the email.
+> It's important to keep the `{{.Rate}}` placeholder in the `body` field if you want to include the current exchange rate in the email.

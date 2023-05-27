@@ -1,0 +1,38 @@
+# API Usage Example
+
+## Docker container build
+
+![Docker container build](./images/docker-container-build.png)
+
+## Run docker image
+
+![Run docker image](./images/run-docker-image.png)
+
+## Testing API using curl command]
+
+![Testing API using curl command](./images/testing-api-using-curl-command.png)
+
+## Rate response
+
+![Rate response](./images/rate-response.png)
+
+## Subscribe response
+
+![Subscribe response 200](./images/subscribe-response1.png)
+![Subscribe response 409](./images/subscribe-response2.png)
+
+## Send emails response
+
+![Send emails response](./images/send-emails-response.png)
+
+## Receiving a message on gmail
+
+![Message received on gmail](./images/recieved-on-gmail1.png)
+![Message received on gmail](./images/recieved-on-gmail2.png)
+
+> If you didn't receive the message, check spam
+
+## Receiving a message on a different email
+
+![Message received on tempmail](./images/receive-on-tempmail1.png)
+![Message received on tempmail](./images/receive-on-tempmail2.png)
