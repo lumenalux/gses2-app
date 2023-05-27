@@ -80,6 +80,8 @@ In the `email` section:
 - `subject`: This field contains the subject line of the email.
 - `body`: This field contains the body of the email. Any instance of `{{.Rate}}` in this field will be replaced with the current BTC to UAH exchange rate when the email is sent.
 
-If you wish to modify the content of the email, simply edit the `subject` and/or `body` fields as desired. Remember to rebuild your Docker image to apply the new settings after making changes to `config.yaml`.
+> **Note**
+> If you wish to modify the content of the email, simply edit the `subject` and/or `body` fields as desired. Remember to rebuild your Docker image to apply the new settings after making changes to `config.yaml`.
 
+> **Warning**
 > It's important to keep the `{{.Rate}}` placeholder in the `body` field if you want to include the current exchange rate in the email.
