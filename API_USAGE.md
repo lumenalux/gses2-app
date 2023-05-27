@@ -30,6 +30,7 @@
 ![Message received on gmail](./images/recieved-on-gmail1.png)
 ![Message received on gmail](./images/recieved-on-gmail2.png)
 
+> **Note**
 > If you didn't receive the message, check spam
 
 ## Receiving a message on a different email
