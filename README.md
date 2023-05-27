@@ -85,3 +85,26 @@ In the `email` section:
 
 > **Warning**
 > It's important to keep the `{{.Rate}}` placeholder in the `body` field if you want to include the current exchange rate in the email.
+
+## Description of the API
+
+This API exposes three endpoints that perform different operations:
+
+1.  **GET** `/api/rate`: This endpoint is used to retrieve the current exchange rate from BTC to UAH.
+
+2.  **POST** `/api/subscribe`: This endpoint is used to add a new email address to the subscriber list.
+
+3.  **POST** `/api/sendEmails`: This endpoint sends an email with the current BTC to UAH rate to all the subscribers.
+
+## How It Works
+
+The `main.go` file is the entry point for the Go application. It creates instances of the above services and injects them into the `AppController`. It then maps the controller's methods to the HTTP endpoints and starts the server.
+
+## Architecture Diagram
+
+![Architecture diagram](./images/architecture-diagram.png)
+
+- **App Controller**: The controller handles HTTP requests and responses. It uses services to perform the business logic.
+- **Exchange Rate Service**: This service communicates with [Kuna.io](https://kuna.io/trade/BTC_UAH) API to fetch the BTC to UAH exchange rates.
+- **Email Subscription Service**: This service manages the operations of adding to and retrieving subscribers from the `storage.csv`.
+- **Email Sender Service**: This service communicates with an external SMTP server to send emails.
