@@ -4,7 +4,7 @@
 
 ## Переклад
 
-- [English](README.md).
+- [English](README.md)
 
 ## Зміст
 
