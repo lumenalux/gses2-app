@@ -5,7 +5,7 @@
 
 ## Translation
 
-- [Українська](README_ua.md).
+- [Українська](README_ua.md)
 
 ## Contents
 
